@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+*{
+
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    
+}
+
+
+
+body{
+    background-color: #000;
+}
+
+
+.logo-desktop{
+    float: left;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+
+
+.logo-desktop label{
+    font-family: roboto;
+    color:  #f60068;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+.menu-desktop{
+    width: 100%;
+    height: 55px;
+    background-color: #000;
+}
+
+
+.menu-desktop ul li{
+    margin: 12px;
+}
+
+.menu-desktop ul{
+   
+    float: right;
+    display: flex;
+    margin-right: 35px;
+    padding-top: 8px;
+}
+
+.menu-desktop ul li a{
+    font-family: roboto;
+    font-size: 15.5px;
+    color: #fff;
+    transition: 0.3s;
+    font-weight: 450;
+}
+
+
+.menu-desktop ul li a:hover{
+    
+    color: #f60068;
+}
+
+
+
+.rede-social-desktop{
+
+    width: 100px;
+    height: 50px;
+    background-color: #000;
+    float: right;
+    padding-top: 21.5px;
+}
+
+
+.rede-social-desktop .fa-behance{
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+    margin-right: 12px;
+    transition: 0.3s;
+}
+
+.rede-social-desktop .fa-dribbble{
+    color: rgb(226, 226, 226);
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+.rede-social-desktop .fa-dribbble:hover{
+    color: #fff;
+}
+
+
+.rede-social-desktop .fa-behance:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+.bnt-menu{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    float: right; 
+    background-color: #1f1f1f;
+    color: #f60068;
+    font-size: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.bnt-menu:hover{
+        color: #fff;
+}
+
+.bnt-close{
+
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    float: right; 
+    background-color: #1f1f1f;
+    color: #f60068;
+    font-size: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    margin-right: 20px;
+    transform: rotate(45deg);
+
+}
+
+.bnt-close:hover{
+
+    transform: rotate(225deg);
+
+}
+
+
+
+.menu{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.menu ul li{
+    margin: 10px;
+}
+
+.menu ul li a{
+    font-family: roboto;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover{
+    color: #f60068;
+}

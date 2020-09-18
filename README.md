@@ -1,2 +1,2 @@
-# menu-responsivo
-Um menu (header) responsivo que fiz para estudos 
+# responsivemenu
+A study about responsive menu that I made with my social network
